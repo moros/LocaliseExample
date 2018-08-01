@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     
     // quick and dirty
-    let languages : [String] = [ "en", "es", "fr" ]
+    let languages : [String] = [ "en", "es", "fr", "it" ]
     var currentIndex: Int = 0
     
     override func viewDidLoad()
